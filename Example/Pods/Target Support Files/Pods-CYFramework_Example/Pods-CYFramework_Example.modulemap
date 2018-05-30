@@ -1,0 +1,6 @@
+framework module Pods_CYFramework_Example {
+  umbrella header "Pods-CYFramework_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
