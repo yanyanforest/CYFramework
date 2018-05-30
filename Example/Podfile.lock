@@ -8,7 +8,7 @@ PODS:
   - Kiwi (3.0.0)
 
 DEPENDENCIES:
-  - CYFramework (from `../`)
+  - CYFramework (from `../CYFramework.podspec`)
   - FBSnapshotTestCase
   - Kiwi
 
@@ -19,13 +19,13 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   CYFramework:
-    :path: "../"
+    :podspec: "../CYFramework.podspec"
 
 SPEC CHECKSUMS:
-  CYFramework: e116ac57de23cb4679ae7d71671ba03ad0b5eb69
+  CYFramework: e829045aa30c374e7607635b0920b1b4099ca488
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
 
-PODFILE CHECKSUM: a9bc83a3fc5da02f3cc1038d9772863cc0f77ea3
+PODFILE CHECKSUM: 19a4bdaa32f9b0d86114bec146e5c560f0a55ec6
 
 COCOAPODS: 1.5.3

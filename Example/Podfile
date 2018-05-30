@@ -1,8 +1,8 @@
 use_frameworks!
 
 target 'CYFramework_Example' do
-  pod 'CYFramework', :path => '../'
-
+#  pod 'CYFramework', :path => '../'
+pod 'CYFramework', :podspec => '../CYFramework.podspec'
   target 'CYFramework_Tests' do
     inherit! :search_paths
 
