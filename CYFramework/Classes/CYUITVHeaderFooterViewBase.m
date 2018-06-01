@@ -9,6 +9,17 @@
 
 @implementation CYUITVHeaderFooterViewBase
 
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    if (self = [super initWithFrame:frame]) {
+        [self addSubviews];
+    }
+    return self;
+}
+-(void)addSubviews
+{
+    
+}
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
