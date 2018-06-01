@@ -7,9 +7,10 @@
 //
 
 #import "CYViewController.h"
-
+//#import <CYFramework/CYFramework.h>
 @interface CYViewController ()
-
+@property(nonatomic,strong)UITableView *tableView;
+//@property(nonatomic,strong)
 @end
 
 @implementation CYViewController
@@ -19,7 +20,14 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
-
+- (UITableView *)tableView
+{
+    if (!_tableView) {
+        _tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
+        _tableView
+    }
+    return _tableView;
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
