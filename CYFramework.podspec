@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'CYFramework'
-    s.version          = '0.1.2'
+    s.version          = '0.1.3'
     s.summary          = 'ios9 CYFramework.'
     
     # This description is used to generate tags and improve search results.

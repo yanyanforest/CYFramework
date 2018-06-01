@@ -7,7 +7,7 @@
 //
 
 @import UIKit;
-
-@interface CYViewController : UIViewController
+#import <CYFramework/CYFramework.h>
+@interface CYViewController : CYUIVCBase
 
 @end
