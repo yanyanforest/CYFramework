@@ -12,6 +12,7 @@
 
 #import "CYBlock.h"
 #import "CYFramework.h"
+#import "CYSystemInfoHelper.h"
 #import "CYUIAlertView.h"
 #import "CYUICVCellBase.h"
 #import "CYUICVDSDBase.h"
