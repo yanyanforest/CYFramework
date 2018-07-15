@@ -10,7 +10,6 @@
 #import "CYBlock.h"
 #import "CYUIStoryTab.h"
 #import "CYUIStoryNavigation.h"
-#import "UIColor+RandomColor.h"
 #import "CYUIVCBase.h"
 #import "CYUIViewBase.h"
 #import "CYUITVDSDBase.h"
@@ -23,5 +22,7 @@
 #import "CYUIAlertView.h"
 #import "UIView+BorderLine.h"
 #import "UIView+Extension.h"
+#import "UIColor+RandomColor.h"
+#import "CYSystemInfoHelper.h"
 
 #endif /* CYFramework_h */

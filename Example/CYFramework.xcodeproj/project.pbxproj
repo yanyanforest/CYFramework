@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3AFC3AE420C1AC5500FAAACB /* CYUITVCellText.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC3AE320C1AC5500FAAACB /* CYUITVCellText.m */; };
+		3AFC3AE720C2128C00FAAACB /* CYNXUITVCellPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC3AE620C2128C00FAAACB /* CYNXUITVCellPay.m */; };
 		3C8C77E388C2FA3A9829978F /* Pods_CYFramework_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A2AF8E060EF88C0F721F07 /* Pods_CYFramework_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -41,6 +42,8 @@
 		06A2AF8E060EF88C0F721F07 /* Pods_CYFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFC3AE220C1AC5500FAAACB /* CYUITVCellText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYUITVCellText.h; sourceTree = "<group>"; };
 		3AFC3AE320C1AC5500FAAACB /* CYUITVCellText.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYUITVCellText.m; sourceTree = "<group>"; };
+		3AFC3AE520C2128C00FAAACB /* CYNXUITVCellPay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYNXUITVCellPay.h; sourceTree = "<group>"; };
+		3AFC3AE620C2128C00FAAACB /* CYNXUITVCellPay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYNXUITVCellPay.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CYFramework_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYFramework_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -145,6 +148,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				3AFC3AE520C2128C00FAAACB /* CYNXUITVCellPay.h */,
+				3AFC3AE620C2128C00FAAACB /* CYNXUITVCellPay.m */,
 			);
 			name = "Example for CYFramework";
 			path = CYFramework;
@@ -381,6 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AFC3AE720C2128C00FAAACB /* CYNXUITVCellPay.m in Sources */,
 				3AFC3AE420C1AC5500FAAACB /* CYUITVCellText.m in Sources */,
 				6003F59E195388D20070C39A /* CYAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* CYViewController.m in Sources */,

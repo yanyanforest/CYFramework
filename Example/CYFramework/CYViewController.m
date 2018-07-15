@@ -7,10 +7,9 @@
 //
 
 #import "CYViewController.h"
-#import <CYFramework/CYUITVDSDBase.h>
-#import <CYFramework/CYUITVDSDBridge.h>
 #import "CYUITVCellText.h"
-
+#import "CYNXUITVCellPay.h"
+#import "CYFramework.h"
 @interface CYViewController ()
 @property(nonatomic,strong)UITableView *tableView;
 @property(nonatomic,strong)CYUITVDSDBase *dsd;
@@ -23,6 +22,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+//    NSLog(@"%@",)
   
 }
 - (void)requestData:(NSInteger)index{
@@ -51,6 +51,9 @@
     [self requestData:1];
     _dsd.object = @{kTableCellDataSourceId :self.dataSource};
     
+    _dsd.block_itemAtIndexPathSelected = ^(id obj, NSIndexPath *indexPath) {
+        
+    };
     [self.tableView reloadData];
 }
 - (UITableView *)tableView
@@ -58,7 +61,8 @@
     if (!_tableView) {
         _tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
         _dsd = [[CYUITVDSDBase alloc]init];
-        _dsd.classesIdbyReusedCells = @{@"cell":@"CYUITVCellText"};
+        _dsd.hasSelectedStyle = YES;
+        _dsd.classesIdbyReusedCells = @{@"cell":@"CYNXUITVCellPay"};
         [CYUITVDSDBridge bridge:_tableView dsd:_dsd]; 
     }
     return _tableView;

@@ -7,6 +7,7 @@
 //
 
 #import "CYUITVCellText.h"
+
 @implementation CYUITVCellText
 
 - (void)awakeFromNib {

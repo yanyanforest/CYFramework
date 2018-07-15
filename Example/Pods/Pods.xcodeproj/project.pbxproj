@@ -52,6 +52,8 @@
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 0683D5B587244F277D8C353DBD2B68F9 /* UIImage+Diff.m */; };
 		378D29455E83B336ED3702071FE288CE /* NSNumber+KiwiAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 88E45A949425E0F3D53AE1D99154393A /* NSNumber+KiwiAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3862ABC74DD2ECFD44F22E6CB49BD841 /* KWUserDefinedMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C98069636DB08D81EC314CAA0468A4C /* KWUserDefinedMatcher.m */; };
+		3A05778C20FAEECB0067DD04 /* CYSystemInfoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A05778A20FAEECA0067DD04 /* CYSystemInfoHelper.m */; };
+		3A05778D20FAEECB0067DD04 /* CYSystemInfoHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A05778B20FAEECA0067DD04 /* CYSystemInfoHelper.h */; };
 		3B846A11A740D1147344B870786EA762 /* KWSuiteConfigurationBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED2F90AD0BEBBF65532A5A40DA3686 /* KWSuiteConfigurationBase.m */; };
 		3BABF206DE88187325E22B7B13A42EB0 /* KWNilMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF88EA8DE9C6D657BE42CF487C65FB8 /* KWNilMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DBCBD55A4E21ACE64DE39B103FAA29D /* KWMessageTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 101263181B126E2B841550497C010BA9 /* KWMessageTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -361,6 +363,8 @@
 		3860C1B6C53ABA787B2290F5A152C856 /* KWExampleSuiteBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWExampleSuiteBuilder.m; path = Classes/Core/KWExampleSuiteBuilder.m; sourceTree = "<group>"; };
 		39747362A8478F3201FF7929D5BBADB0 /* Pods-CYFramework_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CYFramework_Tests-resources.sh"; sourceTree = "<group>"; };
 		39F3303B684E90DC42C00AB08F1DB0BF /* KWContainStringMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWContainStringMatcher.m; path = Classes/Matchers/KWContainStringMatcher.m; sourceTree = "<group>"; };
+		3A05778A20FAEECA0067DD04 /* CYSystemInfoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYSystemInfoHelper.m; path = CYFramework/Classes/CYSystemInfoHelper.m; sourceTree = "<group>"; };
+		3A05778B20FAEECA0067DD04 /* CYSystemInfoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYSystemInfoHelper.h; path = CYFramework/Classes/CYSystemInfoHelper.h; sourceTree = "<group>"; };
 		3BE599E9898955EB376098D5BBACBCC9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C5C17FE738CB47BC3287F9F6B81E76B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C668800EB5F27A04B072DEB61FFD1F3 /* Pods-CYFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CYFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -674,6 +678,8 @@
 		3272BD359707B8EA05EB9CE1D3BF0BB9 /* CYFramework */ = {
 			isa = PBXGroup;
 			children = (
+				3A05778B20FAEECA0067DD04 /* CYSystemInfoHelper.h */,
+				3A05778A20FAEECA0067DD04 /* CYSystemInfoHelper.m */,
 				E053F15C37005C6DFA41957DC08D7C31 /* CYBlock.h */,
 				1A30A47CF1ABA1AD7B714150C16CAB16 /* CYFramework.h */,
 				8140B94115335647F16D9B7FA619F0CB /* CYUIAlertView.h */,
@@ -1225,6 +1231,7 @@
 				779C181C3B0CE64A0D217C5444066546 /* CYUITVHeaderFooterViewBase.h in Headers */,
 				89DB1AE43A8062869C85CE01342D4405 /* CYUIVCBase.h in Headers */,
 				B6ACE93F94B67732817234CA1C03D736 /* CYUIViewBase.h in Headers */,
+				3A05778D20FAEECB0067DD04 /* CYSystemInfoHelper.h in Headers */,
 				10601F177DE430A95F09FA77C04C1F39 /* UIColor+RandomColor.h in Headers */,
 				FCF6F98C8657B501294CE0B042EEE58F /* UIImage+RenderedImage.h in Headers */,
 				83716C9BEF6AF0C9D5EA4861EAB50D88 /* UIView+BorderLine.h in Headers */,
@@ -1468,6 +1475,7 @@
 				596889212D7D5C978F0E5F865C835FD0 /* UIColor+RandomColor.m in Sources */,
 				11821EBC0CDEFC40860DA0EA446BDE9B /* UIImage+RenderedImage.m in Sources */,
 				FA4CD7FD22F58218C55D7AC34E08DF70 /* UIView+BorderLine.m in Sources */,
+				3A05778C20FAEECB0067DD04 /* CYSystemInfoHelper.m in Sources */,
 				090BCB682DF6E2AC08A2EDC4B39C4F3E /* UIView+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
